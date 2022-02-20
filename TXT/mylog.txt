@@ -5,7 +5,13 @@ ZCZC W00 10 L01 enroll and read the course on SCELE
 ZCZC W00 10 L00 reading sp00.pdf
 ZCZC W00 120 L02 1st class for w00
 ZCZC W00 60 L02 2nd class for w00
-ZCZC w00 60 L05 0th quiz
-ZCZC W00 60 L00 reread os00.pdf and GSGS stuffs mentioned in os00.pdf
+ZCZC W00 60 L05 0th quiz
+ZCZC W00 60 L00 reread sp00.pdf and GSGS stuffs mentioned in sp00.pdf
 ZCZC W00 5 L03 create this repo and this log
-ZCZC w00 120 L10 assignments #00
+ZCZC W00 120 L10 assignments #00
+ZCZC W01 10 L00 reading sp01.pdf
+ZCZC W01 120 L02 1st class for w01
+ZCZC W01 60 L02 2nd class for w01
+ZCZC W01 60 L05 1th quiz
+ZCZC W01 60 L00 reread sp01.pdf and GSGS stuffs mentioned in sp01.pdf
+ZCZC W01 140 L10 assignments #01

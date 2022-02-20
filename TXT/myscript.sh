@@ -1,8 +1,28 @@
 #!/bin/bash
 # Mon 07 Feb 2022 23:02:21 WIB
 
-FILES="my*.txt my*.sh"
+WEEK="10"
+REC2="WhReen@localhost"
+REC1="rms46@ui.ac.id"
+FILES="my*.asc my*.txt my*.sh"
 SHA="SHA256SUM"
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
+
+[ -d $HOME/SP_RESULT/ ] || mkdir -p $HOME/SP_RESULT/
+pushd $HOME/SP_RESULT/
+for II in W?? ; do
+    [ -d $II ] || continue
+    TARFILE=my$II.tar.bz2
+    TARFASC=$TARFILE.asc
+    rm -vf $TARFILE $TARFASC
+    echo "tar cfj $TARFILE $II/"
+    tar cfj $TARFILE $II/
+    echo "gpg --armor --detach-sign --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE"
+    gpg --armor --detach-sign --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE
+    echo "Check and copy $TARFASC to $SCRIPT_DIR ..."
+    [ -f $TARFASC ] && cp -vf $TARFASC $SCRIPT_DIR
+done
+popd
 
 echo "rm -f $SHA $SHA.asc"
 rm -f $SHA $SHA.asc
