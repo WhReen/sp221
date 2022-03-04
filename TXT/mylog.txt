@@ -21,3 +21,7 @@ ZCZC W02 60 L02 2nd class for w02
 ZCZC W02 60 L05 2th quiz
 ZCZC W02 60 L00 reread sp02.pdf and GSGS stuffs mentioned in sp02.pdf
 ZCZC W02 360 L10 assignments #02
+ZCZC W03 10 L00 reading sp03.pdf
+ZCZC W03 120 L02 1st class for w03
+ZCZC W03 60 L00 reread sp03.pdf and GSGS stuffs mentioned in sp03.pdf
+ZCZC W03 360 L10 assignments #03
