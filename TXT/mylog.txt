@@ -32,3 +32,8 @@ ZCZC W04 60 L02 2nd class for w04
 ZCZC W04 60 L00 reread sp04.pdf and GSGS stuffs mentioned in sp04.pdf
 ZCZC W04 60 L10 assignments #04
 ZCZC W04 30 L10 fix assignments #04
+ZCZC W05 10 L00 reading sp05.pdf
+ZCZC W05 60 L02 1st class for w05
+ZCZC W05 60 L02 2nd class for w05
+ZCZC W05 40 L05 5th quiz
+ZCZC W05 60 L10 assignments #05
