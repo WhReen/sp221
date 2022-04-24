@@ -37,6 +37,9 @@ ZCZC W05 60 L02 1st class for w05
 ZCZC W05 60 L02 2nd class for w05
 ZCZC W05 40 L05 5th quiz
 ZCZC W05 60 L10 assignments #05
-ZCZC W05 60 L02 1st class for w06 + quiz
-ZCZC W05 60 L02 2nd class for w06
-ZCZC W05 20 L10 assignments #06
+ZCZC W06 60 L02 1st class for w06 + quiz
+ZCZC W06 60 L02 2nd class for w06
+ZCZC W06 20 L10 assignments #06
+ZCZC W07 60 L02 1st class for w07 + quiz
+ZCZC W07 60 L02 2nd class for w07
+ZCZC W07 60 L10 assignments #07
