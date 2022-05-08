@@ -1,7 +1,7 @@
 #!/bin/bash
 # Mon 07 Feb 2022 23:02:21 WIB
 
-WEEK="07"
+WEEK="08"
 REC2="WhReen@localhost"
 REC1="rms46@ui.ac.id"
 FILES="my*.asc my*.txt my*.sh"
